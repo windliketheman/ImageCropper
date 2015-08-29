@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79A93C71B61DBA2007A45A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93C61B61DBA2007A45A0 /* main.m */; };
+		E79A93CA1B61DBA2007A45A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93C91B61DBA2007A45A0 /* AppDelegate.m */; };
+		E79A93CD1B61DBA2007A45A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93CC1B61DBA2007A45A0 /* ViewController.m */; };
+		E79A93D21B61DBA2007A45A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79A93D11B61DBA2007A45A0 /* Images.xcassets */; };
+		E79A93D51B61DBA2007A45A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E79A93D31B61DBA2007A45A0 /* LaunchScreen.xib */; };
+		E79A93F91B61DBEA007A45A0 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93EC1B61DBEA007A45A0 /* CGGeometry+RSKImageCropper.m */; };
+		E79A93FA1B61DBEA007A45A0 /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93F01B61DBEA007A45A0 /* RSKImageCropViewController.m */; };
+		E79A93FB1B61DBEA007A45A0 /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93F21B61DBEA007A45A0 /* RSKImageScrollView.m */; };
+		E79A93FC1B61DBEA007A45A0 /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93F41B61DBEA007A45A0 /* RSKTouchView.m */; };
+		E79A93FD1B61DBEA007A45A0 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93F61B61DBEA007A45A0 /* UIApplication+RSKImageCropper.m */; };
+		E79A93FE1B61DBEA007A45A0 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A93F81B61DBEA007A45A0 /* UIImage+RSKImageCropper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E79A93C11B61DBA2007A45A0 /* ImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A93C51B61DBA2007A45A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79A93C61B61DBA2007A45A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E79A93C81B61DBA2007A45A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E79A93C91B61DBA2007A45A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E79A93CB1B61DBA2007A45A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E79A93CC1B61DBA2007A45A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E79A93D11B61DBA2007A45A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E79A93D41B61DBA2007A45A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E79A93EB1B61DBEA007A45A0 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
+		E79A93EC1B61DBEA007A45A0 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
+		E79A93ED1B61DBEA007A45A0 /* RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropper.h; sourceTree = "<group>"; };
+		E79A93EE1B61DBEA007A45A0 /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
+		E79A93EF1B61DBEA007A45A0 /* RSKImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropViewController.h; sourceTree = "<group>"; };
+		E79A93F01B61DBEA007A45A0 /* RSKImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageCropViewController.m; sourceTree = "<group>"; };
+		E79A93F11B61DBEA007A45A0 /* RSKImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageScrollView.h; sourceTree = "<group>"; };
+		E79A93F21B61DBEA007A45A0 /* RSKImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageScrollView.m; sourceTree = "<group>"; };
+		E79A93F31B61DBEA007A45A0 /* RSKTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKTouchView.h; sourceTree = "<group>"; };
+		E79A93F41B61DBEA007A45A0 /* RSKTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKTouchView.m; sourceTree = "<group>"; };
+		E79A93F51B61DBEA007A45A0 /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
+		E79A93F61B61DBEA007A45A0 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
+		E79A93F71B61DBEA007A45A0 /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
+		E79A93F81B61DBEA007A45A0 /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79A93BE1B61DBA2007A45A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79A93B81B61DBA2007A45A0 = {
+			isa = PBXGroup;
+			children = (
+				E79A93C31B61DBA2007A45A0 /* ImageCropper */,
+				E79A93C21B61DBA2007A45A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79A93C21B61DBA2007A45A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79A93C11B61DBA2007A45A0 /* ImageCropper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79A93C31B61DBA2007A45A0 /* ImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				E79A93C81B61DBA2007A45A0 /* AppDelegate.h */,
+				E79A93C91B61DBA2007A45A0 /* AppDelegate.m */,
+				E79A93CB1B61DBA2007A45A0 /* ViewController.h */,
+				E79A93CC1B61DBA2007A45A0 /* ViewController.m */,
+				E79A93EA1B61DBEA007A45A0 /* RSKImageCropper */,
+				E79A93D11B61DBA2007A45A0 /* Images.xcassets */,
+				E79A93D31B61DBA2007A45A0 /* LaunchScreen.xib */,
+				E79A93C41B61DBA2007A45A0 /* Supporting Files */,
+			);
+			path = ImageCropper;
+			sourceTree = "<group>";
+		};
+		E79A93C41B61DBA2007A45A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E79A93C51B61DBA2007A45A0 /* Info.plist */,
+				E79A93C61B61DBA2007A45A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E79A93EA1B61DBEA007A45A0 /* RSKImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				E79A93EB1B61DBEA007A45A0 /* CGGeometry+RSKImageCropper.h */,
+				E79A93EC1B61DBEA007A45A0 /* CGGeometry+RSKImageCropper.m */,
+				E79A93ED1B61DBEA007A45A0 /* RSKImageCropper.h */,
+				E79A93EE1B61DBEA007A45A0 /* RSKImageCropViewController+Protected.h */,
+				E79A93EF1B61DBEA007A45A0 /* RSKImageCropViewController.h */,
+				E79A93F01B61DBEA007A45A0 /* RSKImageCropViewController.m */,
+				E79A93F11B61DBEA007A45A0 /* RSKImageScrollView.h */,
+				E79A93F21B61DBEA007A45A0 /* RSKImageScrollView.m */,
+				E79A93F31B61DBEA007A45A0 /* RSKTouchView.h */,
+				E79A93F41B61DBEA007A45A0 /* RSKTouchView.m */,
+				E79A93F51B61DBEA007A45A0 /* UIApplication+RSKImageCropper.h */,
+				E79A93F61B61DBEA007A45A0 /* UIApplication+RSKImageCropper.m */,
+				E79A93F71B61DBEA007A45A0 /* UIImage+RSKImageCropper.h */,
+				E79A93F81B61DBEA007A45A0 /* UIImage+RSKImageCropper.m */,
+			);
+			path = RSKImageCropper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79A93C01B61DBA2007A45A0 /* ImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A93E41B61DBA2007A45A0 /* Build configuration list for PBXNativeTarget "ImageCropper" */;
+			buildPhases = (
+				E79A93BD1B61DBA2007A45A0 /* Sources */,
+				E79A93BE1B61DBA2007A45A0 /* Frameworks */,
+				E79A93BF1B61DBA2007A45A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCropper;
+			productName = ImageCropper;
+			productReference = E79A93C11B61DBA2007A45A0 /* ImageCropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79A93B91B61DBA2007A45A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = jia;
+				TargetAttributes = {
+					E79A93C01B61DBA2007A45A0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = E79A93BC1B61DBA2007A45A0 /* Build configuration list for PBXProject "ImageCropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79A93B81B61DBA2007A45A0;
+			productRefGroup = E79A93C21B61DBA2007A45A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79A93C01B61DBA2007A45A0 /* ImageCropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79A93BF1B61DBA2007A45A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A93D51B61DBA2007A45A0 /* LaunchScreen.xib in Resources */,
+				E79A93D21B61DBA2007A45A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79A93BD1B61DBA2007A45A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A93FB1B61DBEA007A45A0 /* RSKImageScrollView.m in Sources */,
+				E79A93FA1B61DBEA007A45A0 /* RSKImageCropViewController.m in Sources */,
+				E79A93CD1B61DBA2007A45A0 /* ViewController.m in Sources */,
+				E79A93FC1B61DBEA007A45A0 /* RSKTouchView.m in Sources */,
+				E79A93FE1B61DBEA007A45A0 /* UIImage+RSKImageCropper.m in Sources */,
+				E79A93CA1B61DBA2007A45A0 /* AppDelegate.m in Sources */,
+				E79A93FD1B61DBEA007A45A0 /* UIApplication+RSKImageCropper.m in Sources */,
+				E79A93F91B61DBEA007A45A0 /* CGGeometry+RSKImageCropper.m in Sources */,
+				E79A93C71B61DBA2007A45A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E79A93D31B61DBA2007A45A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A93D41B61DBA2007A45A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79A93E21B61DBA2007A45A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E79A93E31B61DBA2007A45A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79A93E51B61DBA2007A45A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E79A93E61B61DBA2007A45A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79A93BC1B61DBA2007A45A0 /* Build configuration list for PBXProject "ImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A93E21B61DBA2007A45A0 /* Debug */,
+				E79A93E31B61DBA2007A45A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79A93E41B61DBA2007A45A0 /* Build configuration list for PBXNativeTarget "ImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A93E51B61DBA2007A45A0 /* Debug */,
+				E79A93E61B61DBA2007A45A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79A93B91B61DBA2007A45A0 /* Project object */;
+}
